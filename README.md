@@ -29,4 +29,10 @@ chmod +x wfuzzpycurl-kali.sh
 
 sudo sh wfuzzpycurl-kali.sh
 
+- Remove the build folder in /tmp
+
+cd /tmp
+
+rm -R python-pycurl-openssl
+
 # ENJOY with Wfuzz!
