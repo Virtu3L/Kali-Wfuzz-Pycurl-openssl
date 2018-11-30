@@ -25,6 +25,8 @@ git clone https://github.com/Virtu3L/Kali-Wfuzz-Pycurl-openssl.git
 
 cd Kali-Wfuzz-Pycurl-openssl
 
+chmod +x wfuzzpycurl-kali.sh
+
 sudo sh wfuzzpycurl-kali.sh
 
 # ENJOY with Wfuzz!
