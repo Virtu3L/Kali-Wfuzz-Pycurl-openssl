@@ -18,11 +18,13 @@ chsh -s /bin/bash volken
 - Once in your new non root user clone my repository
 
 cd /opt
+
 git clone https://github.com/Virtu3L/Kali-Wfuzz-Pycurl-openssl.git
 
 - Enter inside the directory clonned, and run the bash script with sudo
 
 cd Kali-Wfuzz-Pycurl-openssl
+
 sudo sh wfuzzpycurl-kali.sh
 
 # ENJOY with Wfuzz!
