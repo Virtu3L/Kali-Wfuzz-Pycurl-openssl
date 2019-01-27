@@ -19,13 +19,13 @@ chsh -s /bin/bash volken
 
 cd /opt
 
-git clone https://github.com/Virtu3L/Kali-Wfuzz-Pycurl-openssl.git
+sudo git clone https://github.com/Virtu3L/Kali-Wfuzz-Pycurl-openssl.git
 
 - Enter inside the directory clonned, and run the bash script with sudo
 
 cd Kali-Wfuzz-Pycurl-openssl
 
-chmod +x wfuzzpycurl-kali.sh
+sudo chmod +x wfuzzpycurl-kali.sh
 
 sudo sh wfuzzpycurl-kali.sh
 
